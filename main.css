@@ -208,7 +208,7 @@ footer {
 
 	display: flex;
 	justify-content: space-between;
-	aling-items: center;
+	align-items: center;
 
 	flex-direction: row;
 	flex-wrap: wrap;

@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+	background-image: url(imge/wall.jpg);
+	background-size:cover;
+    background-attachment: fixed;
+    background-position:0 0px;
+}
+
+#particles-js {
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    background:rgba(0,0,0,.8);
+}
+
+.navigator {
+	padding: 5px;
+	padding-bottom: 100px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.centro {
+	background: rgba(0, 9, 248, 0.5);
+	width: 150%;
+	height: 40px;
+	/*padding: 10px;*/
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	position: relative;
+}
+
+.centro h1 {
+	color: #fff;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+nav {
+	background: #061583; 
+	width: 10%;
+	height: 40px;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-family: arial;
+}
+
+nav:hover {
+	background: red;
+	border: solid white;
+	border-width: 0 .5rem;
+	border-radius: 2rem;
+}
+
+.tarjet {
+	background: rgba(129, 127, 130, 0.7);
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.esp {
+	color: #fff;
+}
+
+article h1 {
+	font-size:40px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height:24px;
+    font-family:helvetica, arial, sans-serif;
+    position: relative;
+}
+
+b {
+	color: red;
+}
+
+.conten {
+	background: #EEEEEE;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	border: solid;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.separ {
+ 	padding: 10px;
+ }
+
+ footer {
+ 	background: rgba(0, 9, 248, 0.5);
+	width: 100%;
+	padding: 10px;
+	position: relative;
+
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+ }
+
+.dev a {
+	background: #c0392b;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.webs a {
+	background: #c0392b;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.webs a:hover {
+	background: #e74c3c;
+}
